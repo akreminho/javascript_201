@@ -9,22 +9,22 @@
 #### Logical Operators
 
 1. Is the `!` operator a *unary* operator, or *binary* operator?
-
+"!" is a unary operator
 2. Evaluate each of the following expressions first on a whiteboard, and then in
    a console:
 
    ```js
-   !(2 >= 2)
-   !(4 === 4)
-   !(5 !== 5)
+   !(2 >= 2) false
+   !(4 === 4) false
+   !(5 !== 5) true
    ```
 
 3. Evaluate each of the following expressions first on a whiteboard, and then in a
    console:
 
    ```js
-   1 > 2 || 2 > 2 || 3 > 2
-   5 < 5 || 75 < 74
+   1 > 2 || 2 > 2 || 3 > 2 true
+   5 < 5 || 75 < 74 false
    ```
 
 #### Conditionals: `else if` & `else`

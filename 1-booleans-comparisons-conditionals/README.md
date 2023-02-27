@@ -25,19 +25,19 @@
    output the expected Boolean value.
 
    ```js
-   12 ??? 78
+   12 < 78
    // => true
 
-   24 ??? 16
+   24 < 16
    // => false
 
-   45 !== ???
+   45 !==47 ???
    // => true
 
-   "45" ??? 45
+   "45" === 45
    // => false
 
-   "6" ??? "six"
+   "6" !== "six"
    // => true
    ```
 
